@@ -6,7 +6,7 @@ inputs:
     description: 'who to great'
     required: true
     default: 'world'
-output: 
+outputs: 
     time: # id of output
     description: 'The time we greated you'
 branding:
