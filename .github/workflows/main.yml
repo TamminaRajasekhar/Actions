@@ -10,7 +10,6 @@ jobs:
    steps:
      - name: Hello Reactor Demoo
        uses: TamminaRajasekhar/Actions@main
-       id: hello
        with: 
         who-to-great: "welcome to reactor #raj"
      - name: get the output time
