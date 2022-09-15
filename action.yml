@@ -2,13 +2,13 @@ name: 'Hello Reactor Demooo'
 description: 'Great someone and record time'
 
 inputs:
-  who-to-great: # id of input
-    description: 'who to great'
+  who-to-great: 
+    description: "who to great"
     required: true
     default: 'world'
 outputs: 
-    time: # id of output
-    description: 'The time we greated you'
+    time: 
+    description: "The time we greated you"
 runs:
  using: 'docker'
  image: 'Dockerfile'
