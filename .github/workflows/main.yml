@@ -8,9 +8,8 @@ jobs:
    runs-on: ubuntu-latest
    name: a job to say hello 
    steps:
-     - uses: actions/checkout@v3
      - name: Hello Reactor Demoo
-       uses: TamminaRajasekhar/Actions/action.yml@main
+       uses: TamminaRajasekhar/Actions@main
        with: 
         who-to-great: "welcome to reactor #raj"
      - name: get the output time
