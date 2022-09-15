@@ -9,7 +9,7 @@ jobs:
    name: a job to say hello 
    steps:
      - name: Hello Reactor Demoo
-       uses: ./Actions/action.yml
+       uses: TamminaRajasekhar/Actions/action.yml@main
        with: 
         who-to-great: "welcome to reactor #raj"
      - name: get the output time
