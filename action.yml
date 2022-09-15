@@ -17,4 +17,4 @@ runs:
  using: 'docker'
  main: 'Dockerfile'
  args:
-  - ${{input.who-to-great}}
+  - ${{inputs.who-to-great}}
