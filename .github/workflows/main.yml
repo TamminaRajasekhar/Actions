@@ -8,11 +8,11 @@ jobs:
    runs-on: ubuntu-latest
    name: a job to say hello 
    steps:
-     -name: Hello Reactor Demoo
-      uses: ./
-      with: 
-       who-to-great: "welcome to reactor #raj"
-     -name: get the output time
+     - name: Hello Reactor Demoo
+       uses: ./Actions/action.yml@main
+       with: 
+        who-to-great: "welcome to reactor #raj"
+     - name: get the output time
        run: echo "the time is ${{steps.hello.outputs.time}}"
        
        
